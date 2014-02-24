@@ -18,6 +18,7 @@
 		502DFF8018BB3517002127E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 502DFF6518BB3517002127E3 /* Foundation.framework */; };
 		502DFF8118BB3517002127E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 502DFF6918BB3517002127E3 /* UIKit.framework */; };
 		502DFF8918BB3517002127E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 502DFF8718BB3517002127E3 /* InfoPlist.strings */; };
+		50F80ECC18BB368700D2A50A /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F80ECB18BB368700D2A50A /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		502DFF7E18BB3517002127E3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		502DFF8618BB3517002127E3 /* HelperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelperTests-Info.plist"; sourceTree = "<group>"; };
 		502DFF8818BB3517002127E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50F80ECB18BB368700D2A50A /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				502DFF6C18BB3517002127E3 /* Supporting Files */,
 				502DFF7418BB3517002127E3 /* VCAppDelegate.h */,
 				502DFF7518BB3517002127E3 /* VCAppDelegate.m */,
+				50F80ECB18BB368700D2A50A /* Storyboard.storyboard */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 			files = (
 				502DFF7018BB3517002127E3 /* InfoPlist.strings in Resources */,
 				502DFF7818BB3517002127E3 /* Images.xcassets in Resources */,
+				50F80ECC18BB368700D2A50A /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
